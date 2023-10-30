@@ -1,0 +1,100 @@
+Placa de Vídeo GeForce RTX 3080; 1001; 799.99; 25; NVIDIA; 2; H
+Processador Intel Core i9-10900K; 1002; 499.99; 15; Intel; 3; H
+Memória RAM Corsair Vengeance LPX 16GB; 1003; 79.99; 50; Corsair; 1; H
+SSD Samsung 970 EVO 1TB; 1004; 149.99; 30; Samsung; 2; H
+Placa-mãe ASUS ROG Strix Z590-E; 1005; 299.99; 20; ASUS; 3; H
+Monitor Dell UltraSharp U2720Q; 1006; 349.99; 10; Dell; 3; H
+Gabinete NZXT H510; 1007; 79.99; 40; NZXT; 1; H
+Fonte de Alimentação EVGA 750W; 1008; 99.99; 35; EVGA; 2; H
+Cooler Master Hyper 212 RGB; 1009; 49.99; 60; Cooler Master; 1; H
+Teclado Mecânico Logitech G Pro X; 1010; 129.99; 25; Logitech; 2; H
+Mouse Razer DeathAdder Elite; 1011; 59.99; 50; Razer; 2; H
+Placa de Rede TP-Link Archer T9E; 1012; 29.99; 30; TP-Link; 1; H
+Webcam Logitech C920; 1013; 69.99; 15; Logitech; 2; H
+Roteador ASUS RT-AX88U; 1014; 179.99; 20; ASUS; 3; H
+Impressora HP LaserJet Pro M404n; 1015; 199.99; 10; HP; 2; H
+Caixa de Som JBL Flip 5; 1016; 79.99; 40; JBL; 1; H
+Headset SteelSeries Arctis 7; 1017; 149.99; 25; SteelSeries; 2; H
+Webcam Logitech C922; 1018; 89.99; 15; Logitech; 2; H
+Placa de Som Creative Sound Blaster Z; 1019; 89.99; 20; Creative; 2; H
+Microfone Blue Yeti; 1020; 129.99; 30; Blue; 3; H
+HD Seagate Barracuda 2TB; 1021; 79.99; 30; Seagate; 2; H
+Mousepad HyperX Fury S; 1022; 19.99; 50; HyperX; 1; H
+Cadeira Gamer DXRacer Formula; 1023; 299.99; 10; DXRacer; 2; H
+Caixa de Som Bose SoundLink Revolve; 1024; 179.99; 20; Bose; 3; H
+Switch Cisco Catalyst 2960; 1025; 399.99; 5; Cisco; 5; H
+Webcam Logitech Brio; 1026; 149.99; 15; Logitech; 2; H
+SSD Crucial MX500 500GB; 1027; 69.99; 40; Crucial; 2; H
+Monitor LG UltraWide 34UC79G-B; 1028; 299.99; 10; LG; 2; H
+Mouse Logitech MX Master 3; 1029; 99.99; 25; Logitech; 3; H
+Placa de Rede Intel Wi-Fi 6 AX200; 1030; 39.99; 30; Intel; 1; H
+Processador AMD Ryzen 9 5950X; 1031; 699.99; 15; AMD; 3; H
+Memória RAM Kingston HyperX 32GB; 1032; 109.99; 20; Kingston; 2; H
+Placa de Vídeo AMD Radeon RX 6900 XT; 1033; 799.99; 10; AMD; 3; H
+Gabinete Fractal Design Meshify C; 1034; 89.99; 30; Fractal Design; 1; H
+Monitor BenQ PD2700U; 1035; 449.99; 15; BenQ; 2; H
+Teclado Corsair K95 RGB Platinum XT; 1036; 159.99; 25; Corsair; 2; H
+Cooler Noctua NH-D15; 1037; 79.99; 30; Noctua; 2; H
+HD Western Digital WD Red 4TB; 1038; 99.99; 20; Western Digital; 2; H
+Fonte de Alimentação Corsair RM750x; 1039; 99.99; 25; Corsair; 3; H
+Monitor ASUS VG279Q; 1040; 249.99; 10; ASUS; 3; H
+Placa de Som Focusrite Scarlett 2i2; 1041; 119.99; 15; Focusrite; 2; H
+Roteador NETGEAR Nighthawk AX12; 1042; 299.99; 10; NETGEAR; 3; H
+Impressora Epson EcoTank ET-2760; 1043; 249.99; 15; Epson; 2; H
+Mouse Logitech G502 HERO; 1044; 69.99; 30; Logitech; 1; H
+Webcam Razer Kiyo; 1045; 79.99; 20; Razer; 1; H
+Placa de Rede D-Link DWA-192; 1046; 29.99; 25; D-Link; 2; H
+SSD Crucial P5 2TB; 1047; 199.99; 10; Crucial; 3; H
+Processador AMD Ryzen 7 5800X; 1048; 399.99; 15; AMD; 3; H
+Memória RAM G.Skill Ripjaws V 64GB; 1049; 149.99; 10; G.Skill; 2; H
+Placa-mãe MSI MAG B550 Tomahawk; 1050; 119.99; 20; MSI; 2; H
+Teclado Razer BlackWidow Elite; 1051; 129.99; 25; Razer; 3; H
+Gabinete NZXT H710; 1052; 149.99; 15; NZXT; 2; H
+Monitor LG 27GL83A-B; 1053; 349.99; 10; LG; 3; H
+Placa de Vídeo ASUS TUF RTX 3060; 1054; 299.99; 15; ASUS; 2; H
+Fonte de Alimentação Seasonic Prime Ultra 850W; 1055; 129.99; 20; Seasonic; 3; H
+Mousepad Razer Goliathus Extended; 1056; 29.99; 30; Razer; 1; H
+HD Seagate BarraCuda 4TB; 1057; 89.99; 15; Seagate; 2; H
+Impressora Canon PIXMA TS8320; 1058; 99.99; 20; Canon; 1; H
+Microfone Blue Snowball iCE; 1059; 49.99; 25; Blue; 2; H
+Cadeira DXRacer King Series; 1060; 349.99; 10; DXRacer; 3; H
+SSD Kingston A2000 1TB; 1061; 79.99; 20; Kingston; 2; H
+Placa de Vídeo MSI GTX 1660 Super; 1062; 249.99; 15; MSI; 2; H
+Teclado Logitech G Pro Mechanical; 1063; 99.99; 25; Logitech; 3; H
+Monitor ASUS ProArt PA278QV; 1064; 349.99; 10; ASUS; 2; H
+Processador Intel Core i7-11700K; 1065; 329.99; 15; Intel; 3; H
+Placa-mãe ASRock B450M Steel Legend; 1066; 89.99; 20; ASRock; 2; H
+Memória RAM HyperX Fury 8GB; 1067; 39.99; 30; HyperX; 1; H
+HD Western Digital Blue 2TB; 1068; 79.99; 25; Western Digital; 2; H
+Fonte de Alimentação EVGA 600W; 1069; 59.99; 30; EVGA; 1; H
+Cooler Corsair Hydro Series H115i; 1070; 129.99; 15; Corsair; 2; H
+Webcam Logitech StreamCam; 1071; 99.99; 10; Logitech; 2; H
+Placa de Rede TP-Link Archer C4000; 1072; 129.99; 10; TP-Link; 3; H
+Monitor Dell S2719DGF; 1073; 349.99; 15; Dell; 3; H
+Roteador ASUS RT-AC68U; 1074; 99.99; 20; ASUS; 2; H
+Impressora Brother HL-L2370DW; 1075; 129.99; 15; Brother; 2; H
+Caixa de Som Bose SoundLink Mini II; 1076; 149.99; 10; Bose; 1; H
+Headset HyperX Cloud II; 1077; 69.99; 20; HyperX; 1; H
+Mouse Razer Naga X; 1078; 59.99; 25; Razer; 2; H
+Placa de Som ASUS Xonar AE; 1079; 49.99; 30; ASUS; 2; H
+Microfone Rode NT-USB; 1080; 169.99; 15; Rode; 2; H
+SSD Samsung 860 EVO 500GB; 1081; 69.99; 25; Samsung; 2; H
+Monitor Acer Predator X34; 1082; 599.99; 10; Acer; 3; H
+Placa de Vídeo Zotac GeForce GTX 1660; 1083; 199.99; 20; Zotac; 2; H
+Processador AMD Ryzen 5 5600X; 1084; 299.99; 15; AMD; 3; H
+Memória RAM Corsair Vengeance RGB Pro 32GB; 1085; 119.99; 10; Corsair; 3; H
+Gabinete NZXT H510i; 1086; 99.99; 20; NZXT; 2; H
+Fonte de Alimentação Corsair RM850x; 1087; 129.99; 15; Corsair; 2; H
+Teclado SteelSeries Apex Pro; 1088; 199.99; 10; SteelSeries; 3; H
+Mouse Logitech G Pro Wireless; 1089; 129.99; 15; Logitech; 2; H
+Roteador TP-Link Archer AX6000; 1090; 249.99; 10; TP-Link; 3; H
+Webcam Logitech BRIO Ultra HD Pro; 1091; 169.99; 10; Logitech; 3; H
+HD Seagate IronWolf 6TB; 1092; 149.99; 15; Seagate; 2; H
+Monitor ASUS ROG Swift PG279QZ; 1093; 499.99; 10; ASUS; 3; H
+Placa de Vídeo EVGA GeForce GTX 1660 Ti; 1094; 279.99; 15; EVGA; 2; H
+Cooler Master MasterLiquid ML240L; 1095; 89.99; 20; Cooler Master; 2; H
+Impressora Epson WorkForce Pro WF-C5710; 1096; 199.99; 10; Epson; 2; H
+Cadeira GT Racing GT099; 1097; 149.99; 15; GT Racing; 2; H
+Placa de Som ASUS Xonar DGX; 1098; 39.99; 25; ASUS; 1; H
+Microfone Blue Yeti Nano; 1099; 79.99; 20; Blue; 2; H
+SSD Crucial BX500 1TB; 1100; 69.99; 30; Crucial; 1; H
