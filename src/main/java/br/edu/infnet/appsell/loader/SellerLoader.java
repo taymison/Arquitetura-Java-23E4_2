@@ -1,4 +1,4 @@
-package br.edu.infnet.appsell;
+package br.edu.infnet.appsell.loader;
 
 import br.edu.infnet.appsell.model.domain.Seller;
 import br.edu.infnet.appsell.model.service.SellerService;
@@ -14,6 +14,7 @@ import java.io.FileReader;
 @Component
 @Order(0)
 public class SellerLoader implements ApplicationRunner {
+
     @Autowired
     private SellerService sellerService;
 

@@ -1,5 +1,10 @@
 package br.edu.infnet.appsell.model.domain;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "hardwares")
 public class Hardware extends Product {
     private String brand;
     private int warrantyMonths;

@@ -1,6 +1,7 @@
-package br.edu.infnet.appsell;
+package br.edu.infnet.appsell.loader;
 
 import br.edu.infnet.appsell.model.domain.Hardware;
+import br.edu.infnet.appsell.model.domain.Seller;
 import br.edu.infnet.appsell.model.service.HardwareService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -23,6 +24,7 @@ public class HardwareLoader implements ApplicationRunner {
 
         String line = reader.readLine();
         String[] fields;
+        Seller seller = new Seller();
 
         while (line != null) {
             fields = line.split(";");
@@ -35,6 +37,9 @@ public class HardwareLoader implements ApplicationRunner {
             hardware.setStock(Boolean.parseBoolean(fields[3].trim()));
             hardware.setBrand(fields[4].trim());
             hardware.setWarrantyMonths(Integer.parseInt(fields[5].trim()));
+
+            seller.setId(Integer.parseInt(fields[7].trim()));
+            hardware.setSeller(seller);
 
             hardwareService.insert(hardware);
 

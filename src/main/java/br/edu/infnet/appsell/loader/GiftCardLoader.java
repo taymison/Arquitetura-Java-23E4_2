@@ -1,6 +1,7 @@
-package br.edu.infnet.appsell;
+package br.edu.infnet.appsell.loader;
 
 import br.edu.infnet.appsell.model.domain.GiftCard;
+import br.edu.infnet.appsell.model.domain.Seller;
 import br.edu.infnet.appsell.model.service.GiftCardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -23,6 +24,7 @@ public class GiftCardLoader implements ApplicationRunner {
 
         String line = reader.readLine();
         String[] fields;
+        Seller seller = new Seller();
 
         while (line != null) {
             fields = line.split(";");
@@ -35,6 +37,9 @@ public class GiftCardLoader implements ApplicationRunner {
             giftCard.setStock(Boolean.parseBoolean(fields[3].trim()));
             giftCard.setActivatable(Boolean.parseBoolean(fields[4].trim()));
             giftCard.setMembership(fields[5].trim());
+
+            seller.setId(Integer.parseInt(fields[7].trim()));
+            giftCard.setSeller(seller);
 
             giftCardService.insert(giftCard);
 

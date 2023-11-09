@@ -1,100 +1,100 @@
-Gift Card A; 123456; 25.00; 50; true; Assinatura Ouro; G
-Gift Card B; 789012; 50.00; 30; true; Assinatura Prata; G
-Gift Card C; 345678; 10.00; 100; true; Assinatura Bronze; G
-Gift Card D; 901234; 100.00; 20; false; Assinatura Premium; G
-Gift Card E; 567890; 30.00; 75; true; Assinatura Diamante; G
-Gift Card F; 234567; 20.00; 60; true; Assinatura Básica; G
-Gift Card G; 890123; 15.00; 40; true; Assinatura Plus; G
-Gift Card H; 456789; 5.00; 200; true; Assinatura Prêmio; G
-Gift Card I; 012345; 75.00; 10; false; Assinatura Especial; G
-Gift Card J; 678901; 40.00; 50; true; Assinatura Exclusiva; G
-Gift Card K; 345678; 10.00; 100; true; Assinatura Ouro; G
-Gift Card L; 123456; 25.00; 50; true; Assinatura Prata; G
-Gift Card M; 789012; 50.00; 30; true; Assinatura Bronze; G
-Gift Card N; 234567; 20.00; 60; true; Assinatura Premium; G
-Gift Card O; 901234; 100.00; 20; false; Assinatura Diamante; G
-Gift Card P; 567890; 30.00; 75; true; Assinatura Básica; G
-Gift Card Q; 890123; 15.00; 40; true; Assinatura Plus; G
-Gift Card R; 456789; 5.00; 200; true; Assinatura Prêmio; G
-Gift Card S; 012345; 75.00; 10; false; Assinatura Especial; G
-Gift Card T; 678901; 40.00; 50; true; Assinatura Exclusiva; G
-Gift Card U; 345678; 10.00; 100; true; Assinatura Ouro; G
-Gift Card V; 123456; 25.00; 50; true; Assinatura Prata; G
-Gift Card W; 789012; 50.00; 30; true; Assinatura Bronze; G
-Gift Card X; 234567; 20.00; 60; true; Assinatura Premium; G
-Gift Card Y; 901234; 100.00; 20; false; Assinatura Diamante; G
-Gift Card Z; 567890; 30.00; 75; true; Assinatura Básica; G
-Gift Card AA; 890123; 15.00; 40; true; Assinatura Plus; G
-Gift Card BB; 456789; 5.00; 200; true; Assinatura Prêmio; G
-Gift Card CC; 012345; 75.00; 10; false; Assinatura Especial; G
-Gift Card DD; 678901; 40.00; 50; true; Assinatura Exclusiva; G
-Gift Card EE; 345678; 10.00; 100; true; Assinatura Ouro; G
-Gift Card FF; 123456; 25.00; 50; true; Assinatura Prata; G
-Gift Card GG; 789012; 50.00; 30; true; Assinatura Bronze; G
-Gift Card HH; 234567; 20.00; 60; true; Assinatura Premium; G
-Gift Card II; 901234; 100.00; 20; false; Assinatura Diamante; G
-Gift Card JJ; 567890; 30.00; 75; true; Assinatura Básica; G
-Gift Card KK; 890123; 15.00; 40; true; Assinatura Plus; G
-Gift Card LL; 456789; 5.00; 200; true; Assinatura Prêmio; G
-Gift Card MM; 012345; 75.00; 10; false; Assinatura Especial; G
-Gift Card NN; 678901; 40.00; 50; true; Assinatura Exclusiva; G
-Gift Card OO; 345678; 10.00; 100; true; Assinatura Ouro; G
-Gift Card PP; 123456; 25.00; 50; true; Assinatura Prata; G
-Gift Card QQ; 789012; 50.00; 30; true; Assinatura Bronze; G
-Gift Card RR; 234567; 20.00; 60; true; Assinatura Premium; G
-Gift Card SS; 901234; 100.00; 20; false; Assinatura Diamante; G
-Gift Card TT; 567890; 30.00; 75; true; Assinatura Básica; G
-Gift Card UU; 890123; 15.00; 40; true; Assinatura Plus; G
-Gift Card VV; 456789; 5.00; 200; true; Assinatura Prêmio; G
-Gift Card WW; 012345; 75.00; 10; false; Assinatura Especial; G
-Gift Card XX; 678901; 40.00; 50; true; Assinatura Exclusiva; G
-Gift Card YY; 345678; 10.00; 100; true; Assinatura Ouro; G
-Gift Card ZZ; 123456; 25.00; 50; true; Assinatura Prata; G
-Gift Card AAA; 789012; 50.00; 30; true; Assinatura Bronze; G
-Gift Card BBB; 234567; 20.00; 60; true; Assinatura Premium; G
-Gift Card CCC; 901234; 100.00; 20; false; Assinatura Diamante; G
-Gift Card DDD; 567890; 30.00; 75; true; Assinatura Básica; G
-Gift Card EEE; 890123; 15.00; 40; true; Assinatura Plus; G
-Gift Card FFF; 456789; 5.00; 200; true; Assinatura Prêmio; G
-Gift Card GGG; 012345; 75.00; 10; false; Assinatura Especial; G
-Gift Card HHH; 678901; 40.00; 50; true; Assinatura Exclusiva; G
-Gift Card III; 345678; 10.00; 100; true; Assinatura Ouro; G
-Gift Card JJJ; 123456; 25.00; 50; true; Assinatura Prata; G
-Gift Card KKK; 789012; 50.00; 30; true; Assinatura Bronze; G
-Gift Card LLL; 234567; 20.00; 60; true; Assinatura Premium; G
-Gift Card MMM; 901234; 100.00; 20; false; Assinatura Diamante; G
-Gift Card NNN; 567890; 30.00; 75; true; Assinatura Básica; G
-Gift Card OOO; 890123; 15.00; 40; true; Assinatura Plus; G
-Gift Card PPP; 456789; 5.00; 200; true; Assinatura Prêmio; G
-Gift Card QQQ; 012345; 75.00; 10; false; Assinatura Especial; G
-Gift Card RRR; 678901; 40.00; 50; true; Assinatura Exclusiva; G
-Gift Card SSS; 345678; 10.00; 100; true; Assinatura Ouro; G
-Gift Card TTT; 123456; 25.00; 50; true; Assinatura Prata; G
-Gift Card UUU; 789012; 50.00; 30; true; Assinatura Bronze; G
-Gift Card VVV; 234567; 20.00; 60; true; Assinatura Premium; G
-Gift Card WWW; 901234; 100.00; 20; false; Assinatura Diamante; G
-Gift Card XXX; 567890; 30.00; 75; true; Assinatura Básica; G
-Gift Card YYY; 890123; 15.00; 40; true; Assinatura Plus; G
-Gift Card ZZZ; 456789; 5.00; 200; true; Assinatura Prêmio; G
-Gift Card AAAA; 012345; 75.00; 10; false; Assinatura Especial; G
-Gift Card BBBB; 678901; 40.00; 50; true; Assinatura Exclusiva; G
-Gift Card CCCC; 345678; 10.00; 100; true; Assinatura Ouro; G
-Gift Card DDDD; 123456; 25.00; 50; true; Assinatura Prata; G
-Gift Card EEEE; 789012; 50.00; 30; true; Assinatura Bronze; G
-Gift Card FFFF; 234567; 20.00; 60; true; Assinatura Premium; G
-Gift Card GGGG; 901234; 100.00; 20; false; Assinatura Diamante; G
-Gift Card HHHH; 567890; 30.00; 75; true; Assinatura Básica; G
-Gift Card IIII; 890123; 15.00; 40; true; Assinatura Plus; G
-Gift Card JJJJ; 456789; 5.00; 200; true; Assinatura Prêmio; G
-Gift Card KKKK; 012345; 75.00; 10; false; Assinatura Especial; G
-Gift Card LLLL; 678901; 40.00; 50; true; Assinatura Exclusiva; G
-Gift Card MMMM; 345678; 10.00; 100; true; Assinatura Ouro; G
-Gift Card NNNN; 123456; 25.00; 50; true; Assinatura Prata; G
-Gift Card OOOO; 789012; 50.00; 30; true; Assinatura Bronze; G
-Gift Card PPPP; 234567; 20.00; 60; true; Assinatura Premium; G
-Gift Card QQQQ; 901234; 100.00; 20; false; Assinatura Diamante; G
-Gift Card RRRR; 567890; 30.00; 75; true; Assinatura Básica; G
-Gift Card SSSS; 890123; 15.00; 40; true; Assinatura Plus; G
-Gift Card TTTT; 456789; 5.00; 200; true; Assinatura Prêmio; G
-Gift Card UUUU; 012345; 75.00; 10; false; Assinatura Especial; G
-Gift Card VVVV; 678901; 40.00; 50; true; Assinatura Exclusiva; G
+Gift Card A; 123456; 25.00; 50; true; Assinatura Ouro; G; 2
+Gift Card B; 789012; 50.00; 30; true; Assinatura Prata; G; 2
+Gift Card C; 345678; 10.00; 100; true; Assinatura Bronze; G; 2
+Gift Card D; 901234; 100.00; 20; false; Assinatura Premium; G; 2
+Gift Card E; 567890; 30.00; 75; true; Assinatura Diamante; G; 2
+Gift Card F; 234567; 20.00; 60; true; Assinatura Básica; G; 2
+Gift Card G; 890123; 15.00; 40; true; Assinatura Plus; G; 2
+Gift Card H; 456789; 5.00; 200; true; Assinatura Prêmio; G; 2
+Gift Card I; 012345; 75.00; 10; false; Assinatura Especial; G; 2
+Gift Card J; 678901; 40.00; 50; true; Assinatura Exclusiva; G; 2
+Gift Card K; 345678; 10.00; 100; true; Assinatura Ouro; G; 2
+Gift Card L; 123456; 25.00; 50; true; Assinatura Prata; G; 2
+Gift Card M; 789012; 50.00; 30; true; Assinatura Bronze; G; 2
+Gift Card N; 234567; 20.00; 60; true; Assinatura Premium; G; 2
+Gift Card O; 901234; 100.00; 20; false; Assinatura Diamante; G; 2
+Gift Card P; 567890; 30.00; 75; true; Assinatura Básica; G; 2
+Gift Card Q; 890123; 15.00; 40; true; Assinatura Plus; G; 2
+Gift Card R; 456789; 5.00; 200; true; Assinatura Prêmio; G; 2
+Gift Card S; 012345; 75.00; 10; false; Assinatura Especial; G; 2
+Gift Card T; 678901; 40.00; 50; true; Assinatura Exclusiva; G; 2
+Gift Card U; 345678; 10.00; 100; true; Assinatura Ouro; G; 2
+Gift Card V; 123456; 25.00; 50; true; Assinatura Prata; G; 2
+Gift Card W; 789012; 50.00; 30; true; Assinatura Bronze; G; 2
+Gift Card X; 234567; 20.00; 60; true; Assinatura Premium; G; 2
+Gift Card Y; 901234; 100.00; 20; false; Assinatura Diamante; G; 2
+Gift Card Z; 567890; 30.00; 75; true; Assinatura Básica; G; 2
+Gift Card AA; 890123; 15.00; 40; true; Assinatura Plus; G; 2
+Gift Card BB; 456789; 5.00; 200; true; Assinatura Prêmio; G; 2
+Gift Card CC; 012345; 75.00; 10; false; Assinatura Especial; G; 2
+Gift Card DD; 678901; 40.00; 50; true; Assinatura Exclusiva; G; 2
+Gift Card EE; 345678; 10.00; 100; true; Assinatura Ouro; G; 2
+Gift Card FF; 123456; 25.00; 50; true; Assinatura Prata; G; 2
+Gift Card GG; 789012; 50.00; 30; true; Assinatura Bronze; G; 2
+Gift Card HH; 234567; 20.00; 60; true; Assinatura Premium; G; 2
+Gift Card II; 901234; 100.00; 20; false; Assinatura Diamante; G; 2
+Gift Card JJ; 567890; 30.00; 75; true; Assinatura Básica; G; 2
+Gift Card KK; 890123; 15.00; 40; true; Assinatura Plus; G; 2
+Gift Card LL; 456789; 5.00; 200; true; Assinatura Prêmio; G; 2
+Gift Card MM; 012345; 75.00; 10; false; Assinatura Especial; G; 2
+Gift Card NN; 678901; 40.00; 50; true; Assinatura Exclusiva; G; 2
+Gift Card OO; 345678; 10.00; 100; true; Assinatura Ouro; G; 2
+Gift Card PP; 123456; 25.00; 50; true; Assinatura Prata; G; 2
+Gift Card QQ; 789012; 50.00; 30; true; Assinatura Bronze; G; 2
+Gift Card RR; 234567; 20.00; 60; true; Assinatura Premium; G; 2
+Gift Card SS; 901234; 100.00; 20; false; Assinatura Diamante; G; 2
+Gift Card TT; 567890; 30.00; 75; true; Assinatura Básica; G; 2
+Gift Card UU; 890123; 15.00; 40; true; Assinatura Plus; G; 2
+Gift Card VV; 456789; 5.00; 200; true; Assinatura Prêmio; G; 2
+Gift Card WW; 012345; 75.00; 10; false; Assinatura Especial; G; 2
+Gift Card XX; 678901; 40.00; 50; true; Assinatura Exclusiva; G; 2
+Gift Card YY; 345678; 10.00; 100; true; Assinatura Ouro; G; 2
+Gift Card ZZ; 123456; 25.00; 50; true; Assinatura Prata; G; 2
+Gift Card AAA; 789012; 50.00; 30; true; Assinatura Bronze; G; 2
+Gift Card BBB; 234567; 20.00; 60; true; Assinatura Premium; G; 2
+Gift Card CCC; 901234; 100.00; 20; false; Assinatura Diamante; G; 2
+Gift Card DDD; 567890; 30.00; 75; true; Assinatura Básica; G; 2
+Gift Card EEE; 890123; 15.00; 40; true; Assinatura Plus; G; 2
+Gift Card FFF; 456789; 5.00; 200; true; Assinatura Prêmio; G; 2
+Gift Card GGG; 012345; 75.00; 10; false; Assinatura Especial; G; 2
+Gift Card HHH; 678901; 40.00; 50; true; Assinatura Exclusiva; G; 2
+Gift Card III; 345678; 10.00; 100; true; Assinatura Ouro; G; 2
+Gift Card JJJ; 123456; 25.00; 50; true; Assinatura Prata; G; 2
+Gift Card KKK; 789012; 50.00; 30; true; Assinatura Bronze; G; 2
+Gift Card LLL; 234567; 20.00; 60; true; Assinatura Premium; G; 2
+Gift Card MMM; 901234; 100.00; 20; false; Assinatura Diamante; G; 2
+Gift Card NNN; 567890; 30.00; 75; true; Assinatura Básica; G; 2
+Gift Card OOO; 890123; 15.00; 40; true; Assinatura Plus; G; 2
+Gift Card PPP; 456789; 5.00; 200; true; Assinatura Prêmio; G; 2
+Gift Card QQQ; 012345; 75.00; 10; false; Assinatura Especial; G; 2
+Gift Card RRR; 678901; 40.00; 50; true; Assinatura Exclusiva; G; 2
+Gift Card SSS; 345678; 10.00; 100; true; Assinatura Ouro; G; 2
+Gift Card TTT; 123456; 25.00; 50; true; Assinatura Prata; G; 2
+Gift Card UUU; 789012; 50.00; 30; true; Assinatura Bronze; G; 2
+Gift Card VVV; 234567; 20.00; 60; true; Assinatura Premium; G; 2
+Gift Card WWW; 901234; 100.00; 20; false; Assinatura Diamante; G; 2
+Gift Card XXX; 567890; 30.00; 75; true; Assinatura Básica; G; 2
+Gift Card YYY; 890123; 15.00; 40; true; Assinatura Plus; G; 2
+Gift Card ZZZ; 456789; 5.00; 200; true; Assinatura Prêmio; G; 2
+Gift Card AAAA; 012345; 75.00; 10; false; Assinatura Especial; G; 2
+Gift Card BBBB; 678901; 40.00; 50; true; Assinatura Exclusiva; G; 2
+Gift Card CCCC; 345678; 10.00; 100; true; Assinatura Ouro; G; 2
+Gift Card DDDD; 123456; 25.00; 50; true; Assinatura Prata; G; 2
+Gift Card EEEE; 789012; 50.00; 30; true; Assinatura Bronze; G; 2
+Gift Card FFFF; 234567; 20.00; 60; true; Assinatura Premium; G; 2
+Gift Card GGGG; 901234; 100.00; 20; false; Assinatura Diamante; G; 2
+Gift Card HHHH; 567890; 30.00; 75; true; Assinatura Básica; G; 2
+Gift Card IIII; 890123; 15.00; 40; true; Assinatura Plus; G; 2
+Gift Card JJJJ; 456789; 5.00; 200; true; Assinatura Prêmio; G; 2
+Gift Card KKKK; 012345; 75.00; 10; false; Assinatura Especial; G; 2
+Gift Card LLLL; 678901; 40.00; 50; true; Assinatura Exclusiva; G; 2
+Gift Card MMMM; 345678; 10.00; 100; true; Assinatura Ouro; G; 2
+Gift Card NNNN; 123456; 25.00; 50; true; Assinatura Prata; G; 2
+Gift Card OOOO; 789012; 50.00; 30; true; Assinatura Bronze; G; 2
+Gift Card PPPP; 234567; 20.00; 60; true; Assinatura Premium; G; 2
+Gift Card QQQQ; 901234; 100.00; 20; false; Assinatura Diamante; G; 2
+Gift Card RRRR; 567890; 30.00; 75; true; Assinatura Básica; G; 2
+Gift Card SSSS; 890123; 15.00; 40; true; Assinatura Plus; G; 2
+Gift Card TTTT; 456789; 5.00; 200; true; Assinatura Prêmio; G; 2
+Gift Card UUUU; 012345; 75.00; 10; false; Assinatura Especial; G; 2
+Gift Card VVVV; 678901; 40.00; 50; true; Assinatura Exclusiva; G; 2

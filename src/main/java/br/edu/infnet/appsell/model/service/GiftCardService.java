@@ -1,21 +1,24 @@
 package br.edu.infnet.appsell.model.service;
 
 import br.edu.infnet.appsell.model.domain.GiftCard;
+import br.edu.infnet.appsell.model.repository.GiftCardRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 
 @Service
 public class GiftCardService {
-    private final Map<Integer, GiftCard> giftCardMap = new HashMap<>();
+    @Autowired
+    private GiftCardRepository giftCardRepository;
 
     public void insert(GiftCard giftCard) {
-        giftCardMap.put(giftCard.getCode(), giftCard);
+        giftCardRepository.save(giftCard);
     }
 
     public Collection<GiftCard> getAll() {
-        return giftCardMap.values();
+        return (Collection<GiftCard>) giftCardRepository.findAll();
     }
+
+    public long count() { return giftCardRepository.count(); }
 }

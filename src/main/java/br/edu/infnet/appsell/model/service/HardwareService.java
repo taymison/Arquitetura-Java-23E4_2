@@ -1,21 +1,24 @@
 package br.edu.infnet.appsell.model.service;
 
 import br.edu.infnet.appsell.model.domain.Hardware;
+import br.edu.infnet.appsell.model.repository.HardwareRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 
 @Service
 public class HardwareService {
-    private final Map<Integer, Hardware> hardwareMap = new HashMap<>();
+    @Autowired
+    private HardwareRepository hardwareRepository;
 
     public void insert(Hardware product) {
-        hardwareMap.put(product.getCode(), product);
+        hardwareRepository.save(product);
     }
 
     public Collection<Hardware> getAll() {
-        return hardwareMap.values();
+        return (Collection<Hardware>) hardwareRepository.findAll();
     }
+
+    public long count() { return hardwareRepository.count(); }
 }

@@ -1,8 +1,9 @@
-package br.edu.infnet.appsell;
+package br.edu.infnet.appsell.loader;
 
 import br.edu.infnet.appsell.model.domain.GiftCard;
 import br.edu.infnet.appsell.model.domain.Hardware;
 import br.edu.infnet.appsell.model.domain.Product;
+import br.edu.infnet.appsell.model.domain.Seller;
 import br.edu.infnet.appsell.model.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -26,6 +27,7 @@ public class ProductLoader implements ApplicationRunner {
 
         String line = reader.readLine();
         String[] fields;
+        Seller seller = new Seller();
 
         while (line != null) {
             fields = line.split(";");
@@ -41,6 +43,9 @@ public class ProductLoader implements ApplicationRunner {
                     hardware.setBrand(fields[4]);
                     hardware.setWarrantyMonths(Integer.parseInt(fields[5].trim()));
 
+                    seller.setId(Integer.parseInt(fields[7].trim()));
+                    hardware.setSeller(seller);
+
                     productService.insert(hardware);
 
                     break;
@@ -54,6 +59,9 @@ public class ProductLoader implements ApplicationRunner {
                     giftCard.setActivatable(Boolean.parseBoolean(fields[4]));
                     giftCard.setMembership(fields[5]);
 
+                    seller.setId(Integer.parseInt(fields[7].trim()));
+                    giftCard.setSeller(seller);
+
                     productService.insert(giftCard);
 
                     break;
@@ -64,7 +72,7 @@ public class ProductLoader implements ApplicationRunner {
             line = reader.readLine();
         }
 
-        for (Product product: productService.getAll()) {
+        for (Product product: productService.findAll()) {
             System.out.println("[Product] " + product);
         }
 

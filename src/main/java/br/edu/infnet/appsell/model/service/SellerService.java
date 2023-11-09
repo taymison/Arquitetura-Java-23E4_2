@@ -1,21 +1,25 @@
 package br.edu.infnet.appsell.model.service;
 
 import br.edu.infnet.appsell.model.domain.Seller;
+import br.edu.infnet.appsell.model.repository.SellerRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 
 @Service
 public class SellerService {
-    private final Map<String, Seller> sellerMap = new HashMap<>();
+
+    @Autowired
+    private SellerRepository sellerRepository;
 
     public void insert(Seller seller) {
-        sellerMap.put(seller.getCpf(), seller);
+        sellerRepository.save(seller);
     }
 
     public Collection<Seller> getAll() {
-        return sellerMap.values();
+        return (Collection<Seller>) sellerRepository.findAll();
     }
+
+    public long count() { return sellerRepository.count(); }
 }
