@@ -1,10 +1,12 @@
 package br.edu.infnet.appsell.loader;
 
+import br.edu.infnet.appsell.logger.FileLogger;
 import br.edu.infnet.appsell.model.domain.GiftCard;
 import br.edu.infnet.appsell.model.domain.Hardware;
 import br.edu.infnet.appsell.model.domain.Product;
 import br.edu.infnet.appsell.model.domain.Seller;
 import br.edu.infnet.appsell.model.service.ProductService;
+import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -46,7 +48,13 @@ public class ProductLoader implements ApplicationRunner {
                     seller.setId(Integer.parseInt(fields[7].trim()));
                     hardware.setSeller(seller);
 
-                    productService.insert(hardware);
+                    try {
+                        productService.insert(hardware);
+                    } catch (ConstraintViolationException exception) {
+                        FileLogger.logException("[HARDWARE] " + hardware + " - " + exception.getMessage());
+                    } catch (Exception exception) {
+                        FileLogger.logException(exception.getMessage());
+                    }
 
                     break;
                 case "G":
@@ -62,7 +70,11 @@ public class ProductLoader implements ApplicationRunner {
                     seller.setId(Integer.parseInt(fields[7].trim()));
                     giftCard.setSeller(seller);
 
-                    productService.insert(giftCard);
+                    try {
+                        productService.insert(giftCard);
+                    } catch (ConstraintViolationException exception) {
+                        FileLogger.logException("[GIFTCARD] " + giftCard + " - " + exception.getMessage());
+                    }
 
                     break;
                 default:

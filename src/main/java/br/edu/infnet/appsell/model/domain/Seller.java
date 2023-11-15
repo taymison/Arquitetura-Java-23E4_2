@@ -24,6 +24,17 @@ public class Seller {
     @OneToMany(fetch = FetchType.EAGER)
     @JoinColumn(name = "sellerId")
     private List<Product> products = new ArrayList<>();
+    @OneToOne(cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "addressId")
+    private Address address;
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
 
     public Integer getId() {
         return id;
@@ -67,6 +78,6 @@ public class Seller {
 
     @Override
     public String toString() {
-        return String.format("id (%d) - name (%s) - cpf (%s) - email (%s) - products (%d)", id, name, cpf, email, products.size());
+        return String.format("id (%d) - name (%s) - cpf (%s) - email (%s) - address (%s) - products (%d)", id, name, cpf, email, address, products.size());
     }
 }

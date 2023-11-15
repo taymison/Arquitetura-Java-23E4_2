@@ -2,13 +2,11 @@ package br.edu.infnet.appsell.model.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
-import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "giftCards")
 public class GiftCard extends Product {
     private boolean activatable;
-    @Size(min = 2, max = 100)
     private String membership;
 
     public boolean isActivatable() {

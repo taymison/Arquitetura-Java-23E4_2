@@ -34,4 +34,6 @@ public class ProductService {
     public long count() {
         return productRepository.count();
     }
+
+    public void delete(Integer id) { productRepository.deleteById(id); }
 }

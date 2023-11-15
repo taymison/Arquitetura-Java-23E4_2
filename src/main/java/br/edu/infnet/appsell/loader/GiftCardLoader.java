@@ -1,8 +1,10 @@
 package br.edu.infnet.appsell.loader;
 
+import br.edu.infnet.appsell.logger.FileLogger;
 import br.edu.infnet.appsell.model.domain.GiftCard;
 import br.edu.infnet.appsell.model.domain.Seller;
 import br.edu.infnet.appsell.model.service.GiftCardService;
+import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -41,7 +43,11 @@ public class GiftCardLoader implements ApplicationRunner {
             seller.setId(Integer.parseInt(fields[7].trim()));
             giftCard.setSeller(seller);
 
-            giftCardService.insert(giftCard);
+            try {
+                giftCardService.insert(giftCard);
+            } catch (ConstraintViolationException exception) {
+                FileLogger.logException("[HARDWARE] " + giftCard + " - " + exception.getMessage());
+            }
 
             line = reader.readLine();
         }

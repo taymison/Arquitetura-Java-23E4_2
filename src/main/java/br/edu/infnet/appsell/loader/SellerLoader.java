@@ -1,7 +1,10 @@
 package br.edu.infnet.appsell.loader;
 
+import br.edu.infnet.appsell.logger.FileLogger;
+import br.edu.infnet.appsell.model.domain.Address;
 import br.edu.infnet.appsell.model.domain.Seller;
 import br.edu.infnet.appsell.model.service.SellerService;
+import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -34,8 +37,13 @@ public class SellerLoader implements ApplicationRunner {
             seller.setName(fields[0].trim());
             seller.setCpf(fields[1].trim());
             seller.setEmail(fields[2].trim());
+            seller.setAddress(new Address(fields[3].trim()));
 
-            sellerService.insert(seller);
+            try {
+                sellerService.insert(seller);
+            } catch (ConstraintViolationException exception) {
+                FileLogger.logException("[SELLER] " + seller + " - " + exception.getMessage());
+            }
 
             line = reader.readLine();
         }

@@ -23,7 +23,6 @@ public class AppController {
 
     @GetMapping(value = "/")
     public String showHome(Model model) {
-
         model.addAttribute("sellerCount", sellerService.count());
         model.addAttribute("productCount", productService.count());
         model.addAttribute("giftCardCount", giftCardService.count());
@@ -33,37 +32,37 @@ public class AppController {
     }
 
     @GetMapping(value = "/seller/list")
-    public String obterListaVendedor(Model model) {
-
+    public String getSellers(Model model) {
         model.addAttribute("title", "Sellers:");
         model.addAttribute("list", sellerService.getAll());
+        model.addAttribute("type", "seller");
 
         return showHome(model);
     }
 
     @GetMapping(value = "/product/list")
-    public String obterListaProduto(Model model) {
-
+    public String getProducts(Model model) {
         model.addAttribute("title", "Products:");
         model.addAttribute("list", productService.findAll());
+        model.addAttribute("type", "product");
 
         return showHome(model);
     }
 
     @GetMapping(value = "/giftCard/list")
-    public String obterListaAlimenticio(Model model) {
-
+    public String getGiftCards(Model model) {
         model.addAttribute("title", "Gift cards:");
         model.addAttribute("list", giftCardService.getAll());
+        model.addAttribute("type", "giftCard");
 
         return showHome(model);
     }
 
     @GetMapping(value = "/hardware/list")
-    public String obterListaEletronico(Model model) {
-
+    public String getHardwares(Model model) {
         model.addAttribute("title", "Hardwares:");
         model.addAttribute("list", hardwareService.getAll());
+        model.addAttribute("type", "hardware");
 
         return showHome(model);
     }

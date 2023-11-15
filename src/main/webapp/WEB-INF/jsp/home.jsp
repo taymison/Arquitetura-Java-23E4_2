@@ -43,13 +43,15 @@
 			<table class="table">
 				<thead class="table-dark">
 					<tr>
-					  <th>${title}</th>
+						<th>${title}</th>
+						<th>Actions</th>
 					</tr>
 				</thead>
 				<tbody>
 					<c:forEach var="item" items="${list}">
 						<tr>
-						  <td>${item}</td>
+							<td>${item}</td>
+							<td><a href="/${type}/${item.id}/delete">delete</a></td>
 						</tr>
 					</c:forEach>
 				</tbody>

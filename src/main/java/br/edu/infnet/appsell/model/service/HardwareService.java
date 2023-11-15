@@ -21,4 +21,6 @@ public class HardwareService {
     }
 
     public long count() { return hardwareRepository.count(); }
+
+    public void delete(Integer id) { hardwareRepository.deleteById(id); }
 }

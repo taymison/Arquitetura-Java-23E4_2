@@ -1,8 +1,10 @@
 package br.edu.infnet.appsell.loader;
 
+import br.edu.infnet.appsell.logger.FileLogger;
 import br.edu.infnet.appsell.model.domain.Hardware;
 import br.edu.infnet.appsell.model.domain.Seller;
 import br.edu.infnet.appsell.model.service.HardwareService;
+import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -41,7 +43,11 @@ public class HardwareLoader implements ApplicationRunner {
             seller.setId(Integer.parseInt(fields[7].trim()));
             hardware.setSeller(seller);
 
-            hardwareService.insert(hardware);
+            try {
+                hardwareService.insert(hardware);
+            } catch (ConstraintViolationException exception) {
+                FileLogger.logException("[HARDWARE] " + hardware + " - " + exception.getMessage());
+            }
 
             line = reader.readLine();
         }

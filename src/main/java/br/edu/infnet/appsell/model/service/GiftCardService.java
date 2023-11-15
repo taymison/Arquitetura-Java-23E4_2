@@ -21,4 +21,6 @@ public class GiftCardService {
     }
 
     public long count() { return giftCardRepository.count(); }
+
+    public void delete(Integer id) { giftCardRepository.deleteById(id); }
 }
