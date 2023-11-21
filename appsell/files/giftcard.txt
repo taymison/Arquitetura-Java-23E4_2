@@ -1,0 +1,5 @@
+Gift Card F; 234567; 20.00; 60; true; Assinatura Básica; G; 2
+Gift Card G; 890123; 15.00; 40; true; Assinatura Plus; G; 2
+Gift Card H; 456789; 5.00; 200; true; Assinatura Prêmio; G; 2
+Gift Card I; 012345; 75.00; 10; false; Assinatura Especial; G; 2
+Gift Card J; 678901; 40.00; 50; true; Assinatura Exclusiva; G; 2

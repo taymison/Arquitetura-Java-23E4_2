@@ -1,0 +1,48 @@
+Teclado Razer BlackWidow Elite; 1051; 129.99; 25; Razer; 3; H; 1
+Gabinete NZXT H710; 1052; 149.99; 15; NZXT; 2; H; 1
+Monitor LG 27GL83A-B; 1053; 349.99; 10; LG; 3; H; 1
+Placa de Vídeo ASUS TUF RTX 3060; 1054; 299.99; 15; ASUS; 2; H; 1
+Fonte de Alimentação Seasonic Prime Ultra 850W; 1055; 129.99; 20; Seasonic; 3; H; 1
+Mousepad Razer Goliathus Extended; 1056; 29.99; 30; Razer; 1; H; 1
+HD Seagate BarraCuda 4TB; 1057; 89.99; 15; Seagate; 2; H; 1
+Impressora Canon PIXMA TS8320; 1058; 99.99; 20; Canon; 1; H; 1
+Microfone Blue Snowball iCE; 1059; 49.99; 25; Blue; 2; H; 1
+Cadeira DXRacer King Series; 1060; 349.99; 10; DXRacer; 3; H; 1
+SSD Kingston A2000 1TB; 1061; 79.99; 20; Kingston; 2; H; 1
+Placa de Vídeo MSI GTX 1660 Super; 1062; 249.99; 15; MSI; 2; H; 1
+Teclado Logitech G Pro Mechanical; 1063; 99.99; 25; Logitech; 3; H; 1
+Monitor ASUS ProArt PA278QV; 1064; 349.99; 10; ASUS; 2; H; 1
+Processador Intel Core i7-11700K; 1065; 329.99; 15; Intel; 3; H; 1
+Placa-mãe ASRock B450M Steel Legend; 1066; 89.99; 20; ASRock; 2; H; 1
+HD Western Digital Blue 2TB; 1068; 79.99; 25; Western Digital; 2; H; 1
+Fonte de Alimentação EVGA 600W; 1069; 59.99; 30; EVGA; 1; H; 1
+Cooler Corsair Hydro Series H115i; 1070; 129.99; 15; Corsair; 2; H; 1
+Webcam Logitech StreamCam; 1071; 99.99; 10; Logitech; 2; H; 1
+Placa de Rede TP-Link Archer C4000; 1072; 129.99; 10; TP-Link; 3; H; 1
+Monitor Dell S2719DGF; 1073; 349.99; 15; Dell; 3; H; 1
+Roteador ASUS RT-AC68U; 1074; 99.99; 20; ASUS; 2; H; 1
+Impressora Brother HL-L2370DW; 1075; 129.99; 15; Brother; 2; H; 1
+Caixa de Som Bose SoundLink Mini II; 1076; 149.99; 10; Bose; 1; H; 1
+Mouse Razer Naga X; 1078; 59.99; 25; Razer; 2; H; 1
+Placa de Som ASUS Xonar AE; 1079; 49.99; 30; ASUS; 2; H; 1
+Microfone Rode NT-USB; 1080; 169.99; 15; Rode; 2; H; 1
+SSD Samsung 860 EVO 500GB; 1081; 69.99; 25; Samsung; 2; H; 1
+Monitor Acer Predator X34; 1082; 599.99; 10; Acer; 3; H; 1
+Placa de Vídeo Zotac GeForce GTX 1660; 1083; 199.99; 20; Zotac; 2; H; 1
+Processador AMD Ryzen 5 5600X; 1084; 299.99; 15; AMD; 3; H; 1
+Memória RAM Corsair Vengeance RGB Pro 32GB; 1085; 119.99; 10; Corsair; 3; H; 1
+Gabinete NZXT H510i; 1086; 99.99; 20; NZXT; 2; H; 1
+Fonte de Alimentação Corsair RM850x; 1087; 129.99; 15; Corsair; 2; H; 1
+Teclado SteelSeries Apex Pro; 1088; 199.99; 10; SteelSeries; 3; H; 1
+Mouse Logitech G Pro Wireless; 1089; 129.99; 15; Logitech; 2; H; 1
+Roteador TP-Link Archer AX6000; 1090; 249.99; 10; TP-Link; 3; H; 1
+Webcam Logitech BRIO Ultra HD Pro; 1091; 169.99; 10; Logitech; 3; H; 1
+HD Seagate IronWolf 6TB; 1092; 149.99; 15; Seagate; 2; H; 1
+Monitor ASUS ROG Swift PG279QZ; 1093; 499.99; 10; ASUS; 3; H; 1
+Placa de Vídeo EVGA GeForce GTX 1660 Ti; 1094; 279.99; 15; EVGA; 2; H; 1
+Cooler Master MasterLiquid ML240L; 1095; 89.99; 20; Cooler Master; 2; H; 1
+Impressora Epson WorkForce Pro WF-C5710; 1096; 199.99; 10; Epson; 2; H; 1
+Cadeira GT Racing GT099; 1097; 149.99; 15; GT Racing; 2; H; 1
+Placa de Som ASUS Xonar DGX; 1098; 39.99; 25; ASUS; 1; H; 1
+Microfone Blue Yeti Nano; 1099; 79.99; 20; Blue; 2; H; 1
+SSD Crucial BX500 1TB; 1100; 69.99; 30; Crucial; 1; H; 1
